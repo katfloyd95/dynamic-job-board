@@ -1,0 +1,76 @@
+html {
+  font-family: 'Courier New', Courier, monospace;
+}
+h5 {
+  margin: 10px 0;
+  font-weight: 500;
+}
+.row {
+  border: 1px solid lightgrey;
+  margin: 10px 0;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+}
+.row:hover {
+  cursor: pointer;
+  background-color: lightgreen;
+}
+.left-section, .mid-section {
+  width: 33%;
+}
+.mid-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 50%;
+  margin: auto;
+}
+.mid-right-section, .right-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mid-right-section{
+  width: 20%;
+  font-size: 8px;
+}
+.right-section {
+  width: 20%;
+}
+.apply {
+  background-color: #ff4742;
+  color: white;
+  font-weight: 700;
+  font-family:Arial, Helvetica, sans-serif;
+  border-radius: 6px;
+  padding: 10px 20px;
+  border: none;
+}
+.apply:hover {
+  cursor: pointer;
+  background-color: pink;
+}
+.company, .position {
+  font-size: 12px;
+}
+.position {
+
+}
+.location {
+  font-size: 8px;
+}
+.tag {
+  margin: 5px;
+  border: 1px solid grey;
+  padding: 2px;
+  text-transform: uppercase;
+  font-size: 8px;
+  border-radius: 4px;
+}
+.tag:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
